@@ -3,7 +3,13 @@
   <entry>
     <title><![CDATA[diyipian]]></title>
     <url>%2F2019%2F04%2F03%2Fdiyipian%2F</url>
-    <content type="text"><![CDATA[这是一个标题这还是一个标题这是一个普通段落： 哈哈]]></content>
+    <content type="text"><![CDATA[这是一个标题这还是一个标题这是一个普通段落： 哈哈heiehieihieehi]]></content>
+      <categories>
+        <category>测试文章</category>
+      </categories>
+      <tags>
+        <tag>测试而已</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[Hello World]]></title>
