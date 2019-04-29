@@ -103,17 +103,16 @@
 
 
 
-  <meta name="description" content="var APP_ID = 3ssj1pHwGLH8RxFMB9YCHnxW-gzGzoHsz;  //输入个人LeanCloud账号AppID   var APP_KEY = K0CjwpfHytcyqcmxh82EJ0HO;  //输入个人LeanCloud账号AppKey   AV.init({     appId: APP_ID,     appKey: APP_KEY   })">
+  <meta name="description" content="付出不一定有回报，但是不付出连回报都没资格谈论">
 <meta property="og:type" content="website">
-<meta property="og:title" content="热门文章Top 10">
-<meta property="og:url" content="http://lixingwang.top/top/index.html">
+<meta property="og:title" content="记录自己每一步脚印">
+<meta property="og:url" content="http://lixingwang.top/categories/c的问题/index.html">
 <meta property="og:site_name" content="记录自己每一步脚印">
-<meta property="og:description" content="var APP_ID = 3ssj1pHwGLH8RxFMB9YCHnxW-gzGzoHsz;  //输入个人LeanCloud账号AppID   var APP_KEY = K0CjwpfHytcyqcmxh82EJ0HO;  //输入个人LeanCloud账号AppKey   AV.init({     appId: APP_ID,     appKey: APP_KEY   })">
+<meta property="og:description" content="付出不一定有回报，但是不付出连回报都没资格谈论">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-04-04T12:22:01.880Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="热门文章Top 10">
-<meta name="twitter:description" content="var APP_ID = 3ssj1pHwGLH8RxFMB9YCHnxW-gzGzoHsz;  //输入个人LeanCloud账号AppID   var APP_KEY = K0CjwpfHytcyqcmxh82EJ0HO;  //输入个人LeanCloud账号AppKey   AV.init({     appId: APP_ID,     appKey: APP_KEY   })">
+<meta name="twitter:title" content="记录自己每一步脚印">
+<meta name="twitter:description" content="付出不一定有回报，但是不付出连回报都没资格谈论">
 
 
 
@@ -123,7 +122,7 @@
 
   
   
-  <link rel="canonical" href="http://lixingwang.top/top/">
+  <link rel="canonical" href="http://lixingwang.top/categories/c的问题/">
 
 
 
@@ -133,7 +132,7 @@
   };
 </script>
 
-  <title>热门文章Top 10 | 记录自己每一步脚印</title>
+  <title>分类: c的问题 | 记录自己每一步脚印</title>
   
 
 
@@ -181,7 +180,7 @@
     
   
 
-  <div class="container sidebar-position-left page-post-detail">
+  <div class="container sidebar-position-left ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -270,7 +269,7 @@
         
         
           
-          <li class="menu-item menu-item-categories">
+          <li class="menu-item menu-item-categories menu-item-active">
 
     
     
@@ -391,82 +390,53 @@
           <div id="content" class="content">
             
 
-  <div id="posts" class="posts-expand">
-    
-    
-    
-    <div class="post-block page">
-      <header class="post-header">
-
-<h1 class="post-title" itemprop="name headline">热门文章Top 10
-
-</h1>
-
-<div class="post-meta">
   
   
+  
+  <div class="post-block category">
 
-
-
-</div>
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
-        
-        
-          <div id="post-rank"></div>
-
-<script src="//cdn.jsdelivr.net/npm/leancloud-storage@3.10.0/dist/av-min.js"></script>
-<script>
-  var APP_ID = 3ssj1pHwGLH8RxFMB9YCHnxW-gzGzoHsz;  //输入个人LeanCloud账号AppID
-  var APP_KEY = K0CjwpfHytcyqcmxh82EJ0HO;  //输入个人LeanCloud账号AppKey
-  AV.init({
-    appId: APP_ID,
-    appKey: APP_KEY
-  });
-
-  var query = new AV.Query('Counter');//表名
-  query.descending('time'); //结果按阅读次数降序排序
-  query.limit(10);  //最终只返回10条结果
-  query.find().then( response => {
-    var content = response.reduce( (accum, {attributes}) => {
-      accum += `<p><div class="prefix">热度 ${attributes.time} ℃</div><div><a href="${attributes.url}">${attributes.title}</a></div></p>`
-      return accum;
-    },"")
-    document.querySelector("#post-rank").innerHTML = content;
-  })
-  .catch( error => {
-    console.log(error);
-  });
-</script>
-
-<style type="text/css">
-  #post-rank {
-    text-align: center;
-  }
-  #post-rank .prefix {
-    color: #ff4d4f;
-  }
-</style>
-
-        
+    <div id="posts" class="posts-collapse">
+      <div class="collection-title">
+        <h1>c的问题<small>分类</small>
+        </h1>
       </div>
+
       
-      
+        
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+          <a class="post-title-link" href="/2019/04/15/c语言遇到的问题/" itemprop="url">
+            
+              <span itemprop="name">c语言遇到的问题</span>
+            
+          </a>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated" datetime="2019-04-15T19:58:02+08:00" content="2019-04-15">
+          04-15
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
       
     </div>
-    
 
-
-
-    
-    
-    
   </div>
+  
+  
+  
+
+  
+
 
 
           </div>
@@ -746,10 +716,6 @@
 
 
   
-  <script src="/js/scrollspy.js?v=7.1.0"></script>
-<script src="/js/post-details.js?v=7.1.0"></script>
-
-
 
   
 
